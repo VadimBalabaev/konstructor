@@ -3,6 +3,9 @@
     --grey-color: #48555B;
     --blue-color: #00A4E5;
 }
+body {
+    font-family: "Open Sans", sans-serif;
+}
 /* font-family: "Open Sans", sans-serif; */
 /* font-family: "Bebas Neue", sans-serif; */
 /* Header */
@@ -47,7 +50,8 @@
 }
 /* Menu */
 .nav {
-    padding: 27px 0;
+    padding: 26px 0;
+    margin-bottom: 55px;
 }
 .nav__inner {
     display: flex;
@@ -69,5 +73,87 @@
     letter-spacing: 0.09em;
     color: var(--grey-color);
 }
+/* about */
+.about {
+    margin-bottom: 118px;
+}
+.about__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.about__head-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    margin-bottom: 10px;
+}
+.about__head-line {
+    width: 50px;
+    height: 2px;
+    background-color: var(--blue-color);
+    margin-bottom: 53px;
+}
+.about__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.about__info {
+    max-width: 43%;
+    display: flex;
+    flex-direction: column;
+}
+.about__info-title {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    margin-bottom: 30px;
+}
+.about__info-title span {
+    color: var(--blue-color);
+}
+.about__info-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: var(--grey-color);
+}
+.about__grid {
+    margin-top: 30px;
+    min-width: 49%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.about__grid-item {
+    max-width: 140px;
+    box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.3);
+    background: #d8d8d8;
+}
+.about__grid-item:nth-child(1) {
+    background: url(../img/card1.png) no-repeat center;
+    background-size: cover;
+}
+.about__grid-item:nth-child(2) {
+    background: url(../img/card2.png) no-repeat center;
+    background-size: cover;
+}
+.about__grid-item:nth-child(3) {
+    background: url(../img/card3.png) no-repeat center;
+    background-size: cover;
+}
+.about__grid-item_title {
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 121%;
+    letter-spacing: 0.01em;
+    color: var(--white-color);
+}
+
 
 
