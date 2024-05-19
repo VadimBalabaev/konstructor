@@ -227,7 +227,7 @@ body {
     letter-spacing: 0.01em;
 }
 .get {
-    background: url(../img/get__bg.png) no-repeat center;
+    background: url(../img/get__bg.png) no-repeat center #171819;
     background-size: cover;
     padding: 238px 0 232px;
 }
@@ -252,7 +252,48 @@ body {
     font-weight: 700;
     font-size: 13px;
     letter-spacing: 0.04em;
-    
+}
+.newsletter {
+    background-color: #171819;
+}
+.newsletter__flex {
+    display: flex;
+    padding: 30px 0;
+    align-items: center;
+}
+.newsletter__title {
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--white-color);
+    margin: 0 7.5% 0 13.5%;
+}
+.newsletter__block {
+    display: flex;
+}
+.newsletter__form {
+}
+.form__item_mail {
+    border: 1px solid #979797;
+    width: 250px;
+    height: 40px;
+    background-color: var(--white-color);
+    padding-left: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+}
+.newsletter__btn {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    padding: 10px 48px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.04em;
 }
 
 
